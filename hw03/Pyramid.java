@@ -24,5 +24,5 @@ Volume = (squareLength * squareLength * height)/3; // Calculate the volume
 System.out.println(" The volume inside the pyramid is " + Volume); //print the Volume of pyramid
 
 
-}  //end of main method   
-      } //end of class
+}  //start of main method   
+      } //START of class
