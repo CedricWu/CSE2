@@ -73,37 +73,37 @@ Integ3 = myScanner.nextInt();  // store value
 }
 
 
-System.out.print(Integ1 + ", " + Integ2);
+System.out.print(Integ1 + ", " + Integ2);  // print first two integers
  
  
-    int counter = 3;
+    int counter = 3; // initialize counter as value of 3 because of the first two integers
 
 
       
- int   a1 = Integ1; 
- int   a2 = Integ2;
- int   a3=a1+a2;
- System.out.print(", " + a3);
+ int   a1 = Integ1; // define a1 as the first integer
+ int   a2 = Integ2; // define a2 as the second
+ int   a3=a1+a2; // sum a1 a2
+ System.out.print(", " + a3); //print the sum
   
   
-  while (counter < Integ3){   
-     a1=a2;
-     a2=a3;
-     a3=a1+a2;
-       System.out.print(", " +  a3);
+  while (counter < Integ3){   // while the counter is less that 3rd integer
+     a1=a2; // new a1 is the old a2
+     a2=a3; // new a2 is the old a3
+     a3=a1+a2; // sum new a3
+       System.out.print(", " +  a3); // print new sum
   
-    counter ++;
+    counter ++; // interate
     
 }
 
-System.out.println();
+System.out.println(); // new line
 
 
 
 
 
 
-}
+} // done main method
     
-}
+} // done class
     
