@@ -39,7 +39,7 @@ if (DECIMALS1 >= 0 && DECIMALS1 <= 255 &&
        int Quotient1=(RED1-9); //subtract 9 from the quotient to give the value
         
         switch(Quotient1){
-            case 1:            // if the value after subtraction is 1, then the original RED1 is 10, then it's A
+                case 1:            // if the value after subtraction is 1, then the original RED1 is 10, then it's A
                 Hexa11="A";
                 break;
                 case 2:// if the value after subtraction is 2, then the original RED1 is 11, then it's B
